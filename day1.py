@@ -1,6 +1,7 @@
 def main():
     leftList = []
     rightList = []
+    # TODO: duplicated in day2.py
     with open("input.tmp") as inputfile:
         for line in inputfile:
            leftNumberStr, rightNumberStr = line.strip().split("   ")
