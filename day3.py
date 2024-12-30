@@ -28,6 +28,7 @@ def main():
             if currentlyEnabled:
                 multiplicationSum += evaluate(expression)
 
+    # TODO: Restore part 1 solution calculation
     print(f"Sum of all multiplication instructions: {multiplicationSum}")
 
 def evaluate(expression):
